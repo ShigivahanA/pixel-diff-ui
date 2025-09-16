@@ -7,17 +7,17 @@ No heavy setup, no Docker, no boilerplate tests. Just plug and play.
 
 ---
 
-## ✨ Features
-- 🚀 **One-liner commands** — `record`, `compare`, `dashboard`.
-- 🖼️ **Multi-scenario config** — test multiple pages/components in one run.
-- 👀 **Built-in Dashboard UI** — review baseline, current, and diff side by side.
-- ✅ **Approve flow** — accept intended changes, update baselines automatically.
-- ⚡ **CI/CD integration ready** — fail builds on unexpected visual changes.
-- 🪶 **Lightweight** — Node + Puppeteer, no extra infra.
+## Features
+- **One-liner commands** — `record`, `compare`, `dashboard`.
+- **Multi-scenario config** — test multiple pages/components in one run.
+- **Built-in Dashboard UI** — review baseline, current, and diff side by side.
+- **Approve flow** — accept intended changes, update baselines automatically.
+- **CI/CD integration ready** — fail builds on unexpected visual changes.
+- **Lightweight** — Node + Puppeteer, no extra infra.
 
 ---
 
-## 📦 Installation
+## Installation
 ```bash
 npm install -g pixel-diff-ui
 ```
@@ -101,7 +101,7 @@ pixel-diff-ui dashboard --config pixel-diff.json
 
 ---
 
-## ✅ CI/CD Integration
+## CI/CD Integration
 Perfect for pull requests:
 - Run `pixel-diff-ui compare --config pixel-diff.json`
 - If diffs are found, the CLI exits with code `1` (failing the build).
@@ -110,7 +110,7 @@ Perfect for pull requests:
 
 ---
 
-## 🎯 Benefits
+## Benefits
 
 - **Catch accidental UI regressions**: Pixel-perfect checks that unit tests can’t detect.
 - **Team workflow**: Designers & devs review visual changes before merging.
@@ -119,12 +119,12 @@ Perfect for pull requests:
 
 ---
 
-## 🔥 Why is this novel?
+## Why is this novel?
 Existing tools exist (BackstopJS, jest-image-snapshot, Differencify, etc.), but they have trade-offs:
-- ⚠️ BackstopJS → powerful but config-heavy & not very DX-friendly.
-- ⚠️ jest-image-snapshot → requires writing test code, no dashboard.
-- ⚠️ Differencify → low-level library, no UI, no workflows.
-- ⚠️ Micoo → Docker-based, heavy infra.
+- BackstopJS → powerful but config-heavy & not very DX-friendly.
+- jest-image-snapshot → requires writing test code, no dashboard.
+- Differencify → low-level library, no UI, no workflows.
+- Micoo → Docker-based, heavy infra.
 
 **`pixel-diff-ui` is different**:
 - Developer-first **CLI workflow** (`record`, `compare`, `dashboard`).
@@ -132,7 +132,7 @@ Existing tools exist (BackstopJS, jest-image-snapshot, Differencify, etc.), but 
 - Built-in **Dashboard UI** with approve button.
 - Works **standalone**, integrates easily into any project.
 
-👉 It’s like **Jest snapshots — but for pixels, with a UI.**
+It’s like **Jest snapshots — but for pixels, with a UI.**
 
 ---
 
