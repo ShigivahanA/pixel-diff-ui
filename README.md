@@ -29,7 +29,7 @@ npx pixel-diff-ui record ...
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### 1. Record a baseline
 Start your app (e.g. Next.js on `http://localhost:3000`) and run:
@@ -136,7 +136,7 @@ It’s like **Jest snapshots — but for pixels, with a UI.**
 
 ---
 
-## 🛠 Roadmap
+## Roadmap
 - [ ] Approve All button in dashboard
 - [ ] CI-friendly HTML report export
 - [ ] Ignore regions (mask out ads/timestamps)
